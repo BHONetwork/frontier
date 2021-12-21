@@ -20,41 +20,41 @@ jsonrpc-pubsub = "18.0.0"
 futures = "0.3"
 log = "0.4.8"
 
-sc-cli = { git = "https://github.com/paritytech/substrate", features = ["wasmtime"] }
-sp-core = { git = "https://github.com/paritytech/substrate" }
-sc-executor = { git = "https://github.com/paritytech/substrate", features = ["wasmtime"] }
-sc-service = { git = "https://github.com/paritytech/substrate", features = ["wasmtime"] }
-sc-telemetry = { git = "https://github.com/paritytech/substrate" }
-sc-keystore = { git = "https://github.com/paritytech/substrate" }
-sc-transaction-pool = { git = "https://github.com/paritytech/substrate" }
-sc-transaction-pool-api = { git = "https://github.com/paritytech/substrate" }
-sc-consensus-aura = { git = "https://github.com/paritytech/substrate" }
-sp-consensus-aura = { git = "https://github.com/paritytech/substrate" }
-sp-consensus = { git = "https://github.com/paritytech/substrate" }
-sc-consensus = { git = "https://github.com/paritytech/substrate" }
-sc-consensus-manual-seal = { git = "https://github.com/paritytech/substrate" }
-sc-network = { git = "https://github.com/paritytech/substrate" }
-sc-finality-grandpa = { git = "https://github.com/paritytech/substrate" }
-sp-finality-grandpa = { git = "https://github.com/paritytech/substrate" }
-sc-client-api = { git = "https://github.com/paritytech/substrate" }
-sp-runtime = { git = "https://github.com/paritytech/substrate" }
-sp-timestamp = { git = "https://github.com/paritytech/substrate" }
-sp-inherents = { git = "https://github.com/paritytech/substrate" }
+sc-cli = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate", features = ["wasmtime"] }
+sp-core = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-executor = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate", features = ["wasmtime"] }
+sc-service = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate", features = ["wasmtime"] }
+sc-telemetry = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-keystore = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-transaction-pool = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-transaction-pool-api = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-consensus-aura = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sp-consensus-aura = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sp-consensus = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-consensus = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-consensus-manual-seal = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-network = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-finality-grandpa = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sp-finality-grandpa = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-client-api = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sp-runtime = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sp-timestamp = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sp-inherents = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
 
 # These dependencies are used for the node template's RPCs
 jsonrpc-core = "18.0.0"
-sc-rpc = { git = "https://github.com/paritytech/substrate" }
-sp-api = { git = "https://github.com/paritytech/substrate" }
-sc-rpc-api = { git = "https://github.com/paritytech/substrate" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate" }
-sp-block-builder = { git = "https://github.com/paritytech/substrate" }
-sc-basic-authorship = { git = "https://github.com/paritytech/substrate" }
-substrate-frame-rpc-system = { git = "https://github.com/paritytech/substrate" }
-pallet-transaction-payment-rpc = { git = "https://github.com/paritytech/substrate" }
+sc-rpc = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sp-api = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-rpc-api = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sp-blockchain = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sp-block-builder = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-basic-authorship = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+substrate-frame-rpc-system = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+pallet-transaction-payment-rpc = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
 
 # These dependencies are used for runtime benchmarking
-frame-benchmarking = { git = "https://github.com/paritytech/substrate" }
-frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate" }
+frame-benchmarking = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+frame-benchmarking-cli = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
 
 fc-consensus = { path = "../../client/consensus" }
 fp-consensus = { path = "../../primitives/consensus" }
@@ -71,7 +71,7 @@ pallet-dynamic-fee = { path = "../../frame/dynamic-fee" }
 pallet-base-fee = { path = "../../frame/base-fee" }
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/paritytech/substrate" }
+substrate-build-script-utils = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
 
 [features]
 default = ["aura"]
