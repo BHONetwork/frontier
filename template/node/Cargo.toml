@@ -20,26 +20,30 @@ jsonrpc-pubsub = "18.0.0"
 futures = "0.3"
 log = "0.4.8"
 
-sc-cli = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate", features = ["wasmtime"] }
-sp-core = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sc-executor = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate", features = ["wasmtime"] }
-sc-service = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate", features = ["wasmtime"] }
-sc-telemetry = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sc-keystore = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sc-transaction-pool = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-cli = { version = "0.10.0-dev", branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate", features = ["wasmtime"] }
+sp-core = { version = "4.0.0-dev", default-features = false, git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sc-executor = { version = "0.10.0-dev", features = [
+    "wasmtime",
+], git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sc-service = { version = "0.10.0-dev", features = [
+    "wasmtime",
+], git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sc-telemetry = { version = "4.0.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sc-keystore = { version = "4.0.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sc-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
 sc-transaction-pool-api = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sc-consensus-aura = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sp-consensus-aura = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sp-consensus = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sc-consensus = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-consensus-aura = { version = "0.10.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sp-consensus-aura = { version = "0.10.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sc-consensus = { version = "0.10.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sp-consensus = { version = "0.10.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
 sc-consensus-manual-seal = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sc-network = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sc-finality-grandpa = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sp-finality-grandpa = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sc-client-api = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sp-runtime = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sp-timestamp = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
-sp-inherents = { branch = "bholdus-monthly-2021-11",  git = "https://github.com/Bholdus/substrate" }
+sc-network = { version = "0.10.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sc-finality-grandpa = { version = "0.10.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sp-finality-grandpa = { version = "4.0.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sc-client-api = { version = "4.0.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sp-runtime = { version = "4.0.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sp-timestamp = { version = "4.0.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
+sp-inherents = { version = "4.0.0-dev", git = "https://github.com/bholdus/substrate.git", branch = "bholdus-monthly-2021-11" }
 
 # These dependencies are used for the node template's RPCs
 jsonrpc-core = "18.0.0"
